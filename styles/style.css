@@ -4,6 +4,10 @@
   background-color: #fff;
 }
 
+address {
+  font-style: normal;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -41,10 +45,6 @@
   padding-left: 24px;
 }
 
-.footer {
-  padding:0 50px 84px;
-}
-
 .logo__header {
   width:129.11196899414062px;
   height: 104.6517562866211px;
@@ -56,18 +56,20 @@
   list-style: circle;
 }
 
+.first__el_menu {
+  list-style: none;
+}
+
 .contacts {
   display: flex;
   flex-direction:column;
   justify-self:end;
-  width: 240px;
-  max-width:100%;
   font-family: Raleway;
   font-weight: 400;
-  font-size: 18px;
   font-style: Regular;
+  font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 0%;
+  font-style: normal;
 }
 
 .text__underline {
@@ -93,7 +95,6 @@
   font-size: 100px;
   font-style: Bold;
   line-height: 114.99999999999999%;
-  letter-spacing: 30%;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -302,6 +303,7 @@
   justify-items: center;
   align-items: start;
   margin-top: 180px;
+  padding:0 50px 84px;
 }
 
 .footer__menu {
