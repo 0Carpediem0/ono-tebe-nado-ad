@@ -22,11 +22,6 @@ address {
   height: 100%;
 }
 
-.footer {
-  width: 100%;
-  height: 180px;
-}
-
 .cover {
   position: relative;
   z-index: 1;
@@ -66,7 +61,6 @@ address {
   justify-self:end;
   font-family: Raleway;
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
@@ -304,6 +298,8 @@ address {
   align-items: start;
   margin-top: 180px;
   padding:0 50px 84px;
+  width: 100%;
+  height: 180px;
 }
 
 .footer__menu {
